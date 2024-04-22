@@ -47,10 +47,21 @@ main {
     width: 215px;
     border-bottom-left-radius: 20px;
     text-align: center;
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+#btn_ingresar:hover{
+background-color: red;
+transform: scale(1.03);
 }
 @media screen and (max-width:480px){
-   header{
+   #ufps{
     width: 100%;
+   }
+   input{
+    border: 1spx;
+    border: solid;
    }
 
 }
