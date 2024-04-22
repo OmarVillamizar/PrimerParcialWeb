@@ -27,3 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('No se encontró un usuario en el localStorage');
     }
 });
+function logout(){
+    window.location.href = 'index.html';
+};
