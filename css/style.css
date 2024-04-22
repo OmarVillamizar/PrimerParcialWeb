@@ -1,0 +1,19 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: aquamarine;
+    height: 120px;
+    min-width: 300px;
+}
+main{
+    background-color: lightcyan;
+    height: 455px;
+    width: 100%;
+}
+footer{
+    background-color: aquamarine;
+    height: 120px;
+    width: 100%;
+}
