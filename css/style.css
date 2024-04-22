@@ -3,30 +3,54 @@ body{
     box-sizing: border-box;
 }
 header{
-    background-color: aquamarine;
+    background-color: white;
     height: 120px;
     min-width: 300px;
+    text-align: center;
 }
 main {
-    background-color: lightcoral;
+    background-color: white;
     height: 455px;
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    align-items: center; /
+    align-items: center; 
+}
+#ufps{
+    width: 30%;
+    height: 100%;
 }
 
 .labels, .inputs {
     margin: 10px 0; 
     display: block;
+    text-align: center;
+    
 }
 .labels{
     font-size: 14px;
+    padding: 0 20px 0 20px;
 }
 .inputs{
     font-size: 16px;
+    padding: 0 10px 0 10px;
 }
 
 #btn_ingresar {
     margin-top: 20px; 
+    padding: 5px 0px 15px 0px;
+    background-color: #D31024;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    height: 32px;
+    width: 215px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+}
+@media screen and (max-width:480px){
+   header{
+    width: 100%;
+   }
+
 }
