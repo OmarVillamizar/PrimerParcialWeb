@@ -17,3 +17,9 @@ footer{
     height: 120px;
     width: 100%;
 }
+.labels{
+    display: block;
+}
+#btn_ingresar{
+    display: block;
+}
